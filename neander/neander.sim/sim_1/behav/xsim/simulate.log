@@ -1,10 +1,9 @@
 Time resolution is 1 ps
  Block Memory Generator module loading initial data...
  Block Memory Generator data initialization complete.
-Block Memory Generator module neander_jn_tb.dut.u_dados.u_memoria.inst.native_mem_module.blk_mem_gen_v8_4_9_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-Escrita: endereco=22, dado=fe
-SUCESSO: resultado -2, N=1 e JN realizou o salto.
-Escrita de FE no endereco 34 confirmada.
-Ciclos ate HLT: 29
+Block Memory Generator module neander_jn_nao_tomado_tb.dut.u_dados.u_memoria.inst.native_mem_module.blk_mem_gen_v8_4_9_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+SUCESSO: resultado 2, N=0 e JN nao realizou o salto.
+PC=7; nenhuma escrita realizada.
+Ciclos ate HLT: 23
 HLT manteve o processador parado.
-$finish called at time : 660 ns : File "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/neander_jn_tb.v" Line 146
+$finish called at time : 540 ns : File "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/neander_jn_nao_tomado_tb.v" Line 146
