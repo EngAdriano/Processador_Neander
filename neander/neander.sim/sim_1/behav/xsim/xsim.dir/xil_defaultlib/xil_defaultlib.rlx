@@ -4,8 +4,10 @@ Nov  8 2024
 22:36:57
 D:/Repositorio_Git/Processador_Neander/neander/neander.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
 D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/acumulador_tb.v,1793451515,verilog,,,,acumulador_tb,,,,,,,,
+D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/contador_programa_tb.v,1793454304,verilog,,,,contador_programa_tb,,,,,,,,
 D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/registrador_flags_tb.v,1793453453,verilog,,,,registrador_flags_tb,,,,,,,,
 D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/ula_tb.v,1793450253,verilog,,,,ula_tb,,,,,,,,
 D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/acumulador.v,1793451157,verilog,,D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/acumulador_tb.v,,acumulador,,,,,,,,
+D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/contador_programa.v,1793454064,verilog,,D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/contador_programa_tb.v,,contador_programa,,,,,,,,
 D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/registrador_flags.v,1793453173,verilog,,D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/registrador_flags_tb.v,,registrador_flags,,,,,,,,
 D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/ula.v,1793449691,verilog,,D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/ula_tb.v,,ula,,,,,,,,

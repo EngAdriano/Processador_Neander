@@ -1,7 +1,7 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
-"../../../../neander.srcs/sources_1/new/registrador_flags.v" \
-"../../../../neander.srcs/sim_1/new/registrador_flags_tb.v" \
+"../../../../neander.srcs/sources_1/new/contador_programa.v" \
+"../../../../neander.srcs/sim_1/new/contador_programa_tb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"
