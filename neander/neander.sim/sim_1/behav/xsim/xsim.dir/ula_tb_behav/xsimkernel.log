@@ -2,3 +2,6 @@ Running: xsim.dir/ula_tb_behav/xsimk.exe -simmode gui -wdb ula_tb_behav.wdb -sim
 Design successfully loaded
 Design Loading Memory Usage: 29864 KB (Peak: 29864 KB)
 Design Loading CPU Usage: 484 ms
+Simulation completed
+Simulation Memory Usage: 30580 KB (Peak: 30580 KB)
+Simulation CPU Usage: 515 ms
