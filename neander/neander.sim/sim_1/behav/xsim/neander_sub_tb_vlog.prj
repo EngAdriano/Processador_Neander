@@ -4,12 +4,14 @@ verilog xil_defaultlib  \
 "../../../../neander.srcs/sources_1/new/acumulador.v" \
 "../../../../neander.srcs/sources_1/new/caminho_dados.v" \
 "../../../../neander.srcs/sources_1/new/contador_programa.v" \
+"../../../../neander.srcs/sources_1/new/neander.v" \
 "../../../../neander.srcs/sources_1/new/registrador_endereco.v" \
 "../../../../neander.srcs/sources_1/new/registrador_flags.v" \
 "../../../../neander.srcs/sources_1/new/registrador_instrucao.v" \
 "../../../../neander.srcs/sources_1/new/seletor_endereco.v" \
 "../../../../neander.srcs/sources_1/new/ula.v" \
-"../../../../neander.srcs/sim_1/new/caminho_dados_tb.v" \
+"../../../../neander.srcs/sources_1/new/unidade_controle.v" \
+"../../../../neander.srcs/sim_1/new/neander_sub_tb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

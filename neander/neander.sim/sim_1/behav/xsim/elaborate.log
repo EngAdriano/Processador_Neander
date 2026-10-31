@@ -1,7 +1,7 @@
 Vivado Simulator v2024.2.0
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_9 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot caminho_dados_tb_behav xil_defaultlib.caminho_dados_tb xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_9 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot neander_sub_tb_behav xil_defaultlib.neander_sub_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -9,6 +9,7 @@ Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.unidade_controle
 Compiling module xil_defaultlib.contador_programa
 Compiling module xil_defaultlib.registrador_instrucao
 Compiling module xil_defaultlib.registrador_endereco
@@ -22,6 +23,7 @@ Compiling module xil_defaultlib.ula
 Compiling module xil_defaultlib.acumulador
 Compiling module xil_defaultlib.registrador_flags
 Compiling module xil_defaultlib.caminho_dados
-Compiling module xil_defaultlib.caminho_dados_tb
+Compiling module xil_defaultlib.neander
+Compiling module xil_defaultlib.neander_sub_tb
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot caminho_dados_tb_behav
+Built simulation snapshot neander_sub_tb_behav

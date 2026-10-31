@@ -1,20 +1,2 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.gen/sources_1/ip/memoria_neander/sim/memoria_neander.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module memoria_neander
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/acumulador.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module acumulador
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/caminho_dados.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module caminho_dados
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/contador_programa.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module contador_programa
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/registrador_endereco.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module registrador_endereco
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/registrador_flags.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module registrador_flags
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/registrador_instrucao.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module registrador_instrucao
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/seletor_endereco.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module seletor_endereco
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/ula.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module ula
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/caminho_dados_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module caminho_dados_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/neander_sub_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neander_sub_tb
