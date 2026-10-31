@@ -1,4 +1,0 @@
-Running: xsim.dir/registrador_endereco_tb_behav/xsimk.exe -simmode gui -wdb registrador_endereco_tb_behav.wdb -simrunnum 0 -socket 58086
-Design successfully loaded
-Design Loading Memory Usage: 29844 KB (Peak: 29844 KB)
-Design Loading CPU Usage: 468 ms
