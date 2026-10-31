@@ -74,7 +74,7 @@ set_property ip_output_repo d:/Repositorio_Git/Processador_Neander/neander/neand
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet d:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/ip/memoria_neander/memoria_neander.xci
+read_ip -quiet D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/ip/memoria_neander/memoria_neander.xci
 set_property used_in_implementation false [get_files -all d:/Repositorio_Git/Processador_Neander/neander/neander.gen/sources_1/ip/memoria_neander/memoria_neander_ooc.xdc]
 
 OPTRACE "Adding files" END { }
