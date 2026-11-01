@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+SUCESSO: multiplicacao com atraso.
+7 x 5 = 35
+Ciclos: 344
+Tempo em ciclos a 50 MHz: 6880 ns
+HLT manteve os valores finais.
+$finish called at time : 7141 ns : File "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/neander_multiplicacao_timing_tb.v" Line 125

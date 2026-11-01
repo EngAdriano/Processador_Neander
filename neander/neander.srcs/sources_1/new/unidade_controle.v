@@ -167,6 +167,17 @@ module unidade_controle (
 
         parado            = 1'b0;
         erro              = 1'b0;
+        
+        // Mantem a operacao selecionada enquanto o RI nao muda.
+        case (opcode)
+            OP_LDA: op_ula = 3'b000;
+            OP_ADD: op_ula = 3'b001;
+            OP_SUB: op_ula = 3'b010;
+            OP_AND: op_ula = 3'b011;
+            OP_OR:  op_ula = 3'b100;
+            OP_NOT: op_ula = 3'b101;
+            default: op_ula = 3'b000;
+        endcase
 
         // Mantem os controles inativos durante o reset
         if (!reset) begin
@@ -195,15 +206,6 @@ module unidade_controle (
                 end
 
                 EXECUTA_ULA: begin
-                    case (opcode)
-                        OP_LDA: op_ula = 3'b000;
-                        OP_ADD: op_ula = 3'b001;
-                        OP_SUB: op_ula = 3'b010;
-                        OP_AND: op_ula = 3'b011;
-                        OP_OR:  op_ula = 3'b100;
-                        default: op_ula = 3'b000;
-                    endcase
-
                     // Atualiza somente para operacoes validas
                     case (opcode)
                         OP_LDA, OP_ADD, OP_SUB, OP_AND, OP_OR: begin
@@ -233,7 +235,6 @@ module unidade_controle (
                 end
 
                 EXECUTA_NOT: begin
-                    op_ula      = 3'b101;
                     carga_ac    = 1'b1;
                     carga_flags = 1'b1;
                 end
