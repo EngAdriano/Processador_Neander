@@ -2,3 +2,6 @@ Running: xsim.dir/neander_multiplicacao_tb_behav/xsimk.exe -simmode gui -wdb nea
 Design successfully loaded
 Design Loading Memory Usage: 28976 KB (Peak: 28976 KB)
 Design Loading CPU Usage: 483 ms
+Simulation completed
+Simulation Memory Usage: 31308 KB (Peak: 31308 KB)
+Simulation CPU Usage: 593 ms
