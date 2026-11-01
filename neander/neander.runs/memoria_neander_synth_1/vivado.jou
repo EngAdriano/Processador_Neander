@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Sun Nov  1 10:24:48 2026
-# Process ID         : 22176
+# Start of session at: Sun Nov  1 19:11:51 2026
+# Process ID         : 7600
 # Current directory  : D:/Repositorio_Git/Processador_Neander/neander/neander.runs/memoria_neander_synth_1
 # Command line       : vivado.exe -log memoria_neander.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source memoria_neander.tcl
 # Log file           : D:/Repositorio_Git/Processador_Neander/neander/neander.runs/memoria_neander_synth_1/memoria_neander.vds
@@ -17,8 +17,8 @@
 # CPU Physical cores : 10
 # CPU Logical cores  : 16
 # Host memory        : 17013 MB
-# Swap memory        : 3234 MB
-# Total Virtual      : 20248 MB
-# Available Virtual  : 2470 MB
+# Swap memory        : 1073 MB
+# Total Virtual      : 18087 MB
+# Available Virtual  : 4506 MB
 #-----------------------------------------------------------
 source memoria_neander.tcl -notrace
