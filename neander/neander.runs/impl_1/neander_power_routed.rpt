@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date             : Sun Nov  1 11:06:09 2026
+| Date             : Mon Nov  2 09:06:29 2026
 | Host             : INVENCTUS_ENG running 64-bit major release  (build 9200)
 | Command          : report_power -file neander_power_routed.rpt -pb neander_power_summary_routed.pb -rpx neander_power_routed.rpx
 | Design           : neander
@@ -33,7 +33,7 @@ Table of Contents
 | Total On-Chip Power (W)  | 0.092        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.000        |
+| Dynamic (W)              | 0.001        |
 | Device Static (W)        | 0.091        |
 | Effective TJA (C/W)      | 4.6          |
 | Max Ambient (C)          | 84.6         |
@@ -53,13 +53,12 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |      143 |       --- |             --- |
-|   LUT as Logic |    <0.001 |       72 |     63400 |            0.11 |
-|   Register     |    <0.001 |       46 |    126800 |            0.04 |
+| Slice Logic    |    <0.001 |      132 |       --- |             --- |
+|   LUT as Logic |    <0.001 |       71 |     63400 |            0.11 |
+|   Register     |    <0.001 |       44 |    126800 |            0.03 |
 |   Others       |     0.000 |        5 |       --- |             --- |
-|   F7/F8 Muxes  |     0.000 |        7 |     63400 |            0.01 |
 |   CARRY4       |     0.000 |        4 |     15850 |            0.03 |
-| Signals        |    <0.001 |      123 |       --- |             --- |
+| Signals        |    <0.001 |      119 |       --- |             --- |
 | Block RAM      |    <0.001 |      0.5 |       135 |            0.37 |
 | I/O            |    <0.001 |       70 |       210 |           33.33 |
 | Static Power   |     0.091 |          |           |                 |
@@ -139,8 +138,10 @@ Table of Contents
 3.1 By Hierarchy
 ----------------
 
-+------+-----------+
-| Name | Power (W) |
-+------+-----------+
++---------+-----------+
+| Name    | Power (W) |
++---------+-----------+
+| neander |     0.001 |
++---------+-----------+
 
 

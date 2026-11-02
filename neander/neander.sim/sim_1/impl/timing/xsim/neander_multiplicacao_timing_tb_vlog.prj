@@ -1,7 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  \
-"neander_multiplicacao_timing_tb_time_impl.v" \
-"../../../../../neander.srcs/sim_1/new/neander_multiplicacao_timing_tb.v" \
-
-# Do not sort compile order
-nosort

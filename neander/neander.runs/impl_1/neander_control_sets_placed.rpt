@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date         : Sun Nov  1 11:05:46 2026
+| Date         : Mon Nov  2 09:06:06 2026
 | Host         : INVENCTUS_ENG running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file neander_control_sets_placed.rpt
 | Design       : neander
@@ -27,7 +27,7 @@ Table of Contents
 |    Minimum number of control sets                        |     5 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    10 |
+| Unused register locations in slices containing registers |     4 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -43,8 +43,8 @@ Table of Contents
 | >= 0 to < 4        |     0 |
 | >= 4 to < 6        |     0 |
 | >= 6 to < 8        |     0 |
-| >= 8 to < 10       |     3 |
-| >= 10 to < 12      |     1 |
+| >= 8 to < 10       |     4 |
+| >= 10 to < 12      |     0 |
 | >= 12 to < 14      |     1 |
 | >= 14 to < 16      |     0 |
 | >= 16              |     0 |
@@ -60,10 +60,10 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |               0 |            0 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              12 |            4 |
+| No           | Yes                   | No                     |              12 |            3 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |              34 |           15 |
+| Yes          | Yes                   | No                     |              32 |           10 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
@@ -73,11 +73,11 @@ Table of Contents
 +----------------+-------------------+------------------+------------------+----------------+--------------+
 |  Clock Signal  |   Enable Signal   | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
 +----------------+-------------------+------------------+------------------+----------------+--------------+
-|  clk_IBUF_BUFG | u_controle/Q[0]   | reset_IBUF       |                5 |              8 |         1.60 |
-|  clk_IBUF_BUFG | u_controle/Q[4]   | reset_IBUF       |                3 |              8 |         2.67 |
-|  clk_IBUF_BUFG | u_controle/E[0]   | reset_IBUF       |                3 |              8 |         2.67 |
-|  clk_IBUF_BUFG | u_dados/u_ri/E[0] | reset_IBUF       |                4 |             10 |         2.50 |
-|  clk_IBUF_BUFG |                   | reset_IBUF       |                4 |             12 |         3.00 |
+|  clk_IBUF_BUFG | u_dados/u_ri/E[0] | reset_IBUF       |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | u_controle/Q[4]   | reset_IBUF       |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG | u_controle/E[0]   | reset_IBUF       |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | u_controle/Q[0]   | reset_IBUF       |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG |                   | reset_IBUF       |                3 |             12 |         4.00 |
 +----------------+-------------------+------------------+------------------+----------------+--------------+
 
 

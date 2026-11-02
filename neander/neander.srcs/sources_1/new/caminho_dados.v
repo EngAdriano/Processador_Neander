@@ -120,6 +120,9 @@ module caminho_dados (
         .q(ac)
     );
 
+    // Z descreve o valor armazenado em AC, inclusive apos o reset.
+    assign z = (ac == 8'h00);
+
     registrador_flags u_flags (
         .clk(clk),
         .reset(reset),
@@ -127,7 +130,7 @@ module caminho_dados (
         .n_in(n_ula),
         .z_in(z_ula),
         .n(n),
-        .z(z)
+        .z()
     );
 
 endmodule

@@ -56,7 +56,6 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
@@ -80,10 +79,11 @@ add_files D:/Repositorio_Git/Processador_Neander/neander/programa_jz_nao_tomado.
 add_files D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/ip/memoria_neander/programa_jn.coe
 add_files D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/ip/memoria_neander/programa_jn_nao_tomado.coe
 add_files D:/Repositorio_Git/Processador_Neander/neander/programa_jn.coe
-add_files d:/Repositorio_Git/Processador_Neander/neander/programa_jmp.coe
-add_files d:/Repositorio_Git/Processador_Neander/neander/programa_logica.coe
-add_files d:/Repositorio_Git/Processador_Neander/neander/programa_matrizes.coe
-add_files d:/Repositorio_Git/Processador_Neander/neander/programa_multiplicacao.coe
+add_files D:/Repositorio_Git/Processador_Neander/neander/programa_jmp.coe
+add_files D:/Repositorio_Git/Processador_Neander/neander/programa_logica.coe
+add_files D:/Repositorio_Git/Processador_Neander/neander/programa_matrizes.coe
+add_files D:/Repositorio_Git/Processador_Neander/neander/programa_multiplicacao.coe
+add_files D:/Repositorio_Git/Processador_Neander/neander/multiplicacao_hidra.coe
 read_verilog -library xil_defaultlib {
   D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/acumulador.v
   D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/caminho_dados.v
