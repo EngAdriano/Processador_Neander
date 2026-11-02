@@ -20,5 +20,5 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Nean
 INFO: [VRFC 10-311] analyzing module ula
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/unidade_controle.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module unidade_controle
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/neander_multiplicacao_diag_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module neander_multiplicacao_diag_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/neander_matrizes_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neander_matrizes_tb

@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Mon Nov  2 09:05:05 2026
-# Process ID         : 12520
+# Start of session at: Mon Nov  2 14:27:34 2026
+# Process ID         : 22620
 # Current directory  : D:/Repositorio_Git/Processador_Neander/neander/neander.runs/synth_1
 # Command line       : vivado.exe -log neander.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source neander.tcl
 # Log file           : D:/Repositorio_Git/Processador_Neander/neander/neander.runs/synth_1/neander.vds
@@ -19,7 +19,7 @@
 # Host memory        : 17013 MB
 # Swap memory        : 1073 MB
 # Total Virtual      : 18087 MB
-# Available Virtual  : 4540 MB
+# Available Virtual  : 3406 MB
 #-----------------------------------------------------------
 source neander.tcl -notrace
 Command: read_checkpoint -auto_incremental -incremental D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/utils_1/imports/synth_1/neander.dcp
@@ -34,9 +34,9 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 7272
+INFO: [Synth 8-7075] Helper process launched with PID 18076
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1052.969 ; gain = 468.598
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1054.578 ; gain = 469.852
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'neander' [D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/neander.v:23]
 INFO: [Synth 8-6157] synthesizing module 'unidade_controle' [D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/unidade_controle.v:23]
@@ -50,8 +50,8 @@ INFO: [Synth 8-6157] synthesizing module 'registrador_endereco' [D:/Repositorio_
 INFO: [Synth 8-6155] done synthesizing module 'registrador_endereco' (0#1) [D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/registrador_endereco.v:23]
 INFO: [Synth 8-6157] synthesizing module 'seletor_endereco' [D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/seletor_endereco.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'seletor_endereco' (0#1) [D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/seletor_endereco.v:23]
-INFO: [Synth 8-6157] synthesizing module 'memoria_neander' [D:/Repositorio_Git/Processador_Neander/neander/neander.runs/synth_1/.Xil/Vivado-12520-INVENCTUS_ENG/realtime/memoria_neander_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'memoria_neander' (0#1) [D:/Repositorio_Git/Processador_Neander/neander/neander.runs/synth_1/.Xil/Vivado-12520-INVENCTUS_ENG/realtime/memoria_neander_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'memoria_neander' [D:/Repositorio_Git/Processador_Neander/neander/neander.runs/synth_1/.Xil/Vivado-22620-INVENCTUS_ENG/realtime/memoria_neander_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'memoria_neander' (0#1) [D:/Repositorio_Git/Processador_Neander/neander/neander.runs/synth_1/.Xil/Vivado-22620-INVENCTUS_ENG/realtime/memoria_neander_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'ula' [D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/ula.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'ula' (0#1) [D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/ula.v:23]
 INFO: [Synth 8-6157] synthesizing module 'acumulador' [D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/acumulador.v:23]
@@ -61,18 +61,18 @@ INFO: [Synth 8-6155] done synthesizing module 'registrador_flags' (0#1) [D:/Repo
 INFO: [Synth 8-6155] done synthesizing module 'caminho_dados' (0#1) [D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/caminho_dados.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'neander' (0#1) [D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sources_1/new/neander.v:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1162.492 ; gain = 578.121
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1163.715 ; gain = 578.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1162.492 ; gain = 578.121
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1163.715 ; gain = 578.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1162.492 ; gain = 578.121
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1163.715 ; gain = 578.988
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1162.492 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1163.715 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -83,29 +83,29 @@ Parsing XDC File [D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/co
 Finished Parsing XDC File [D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/constrs_1/new/neander_timing.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1245.500 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1247.512 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1245.500 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1247.512 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1245.500 ; gain = 661.129
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1247.512 ; gain = 662.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1245.500 ; gain = 661.129
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1247.512 ; gain = 662.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property KEEP_HIERARCHY = SOFT for u_dados/u_memoria. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1245.500 ; gain = 661.129
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1247.512 ; gain = 662.785
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'estado_reg' in module 'unidade_controle'
 ---------------------------------------------------------------------------------------------------
@@ -126,7 +126,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'estado_reg' in module 'unid
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'estado_reg' using encoding 'one-hot' in module 'unidade_controle'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1245.500 ; gain = 661.129
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1247.512 ; gain = 662.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -166,25 +166,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1245.500 ; gain = 661.129
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1247.512 ; gain = 662.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1351.859 ; gain = 767.488
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1358.309 ; gain = 773.582
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1386.125 ; gain = 801.754
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1391.727 ; gain = 807.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1386.125 ; gain = 801.754
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1391.727 ; gain = 807.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -202,37 +202,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1580.129 ; gain = 995.758
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1585.582 ; gain = 1000.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1580.129 ; gain = 995.758
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1585.582 ; gain = 1000.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1580.129 ; gain = 995.758
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1585.582 ; gain = 1000.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1580.129 ; gain = 995.758
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1585.582 ; gain = 1000.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1580.129 ; gain = 995.758
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1585.582 ; gain = 1000.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1580.129 ; gain = 995.758
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1585.582 ; gain = 1000.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -263,18 +263,18 @@ Report Cell Usage:
 |12    |OBUF            |    68|
 +------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1580.129 ; gain = 995.758
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1585.582 ; gain = 1000.855
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1580.129 ; gain = 912.750
-Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1580.129 ; gain = 995.758
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1585.582 ; gain = 917.059
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1585.582 ; gain = 1000.855
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1589.254 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1594.738 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1592.965 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1598.410 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -282,8 +282,8 @@ Synth Design complete | Checksum: c641cbfa
 INFO: [Common 17-83] Releasing license: Synthesis
 44 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1592.965 ; gain = 1214.547
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1592.965 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1598.410 ; gain = 1219.766
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1598.410 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'D:/Repositorio_Git/Processador_Neander/neander/neander.runs/synth_1/neander.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file neander_utilization_synth.rpt -pb neander_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Nov  2 09:05:30 2026...
+INFO: [Common 17-206] Exiting Vivado at Mon Nov  2 14:28:00 2026...

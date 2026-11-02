@@ -11,7 +11,7 @@ verilog xil_defaultlib  \
 "../../../../neander.srcs/sources_1/new/seletor_endereco.v" \
 "../../../../neander.srcs/sources_1/new/ula.v" \
 "../../../../neander.srcs/sources_1/new/unidade_controle.v" \
-"../../../../neander.srcs/sim_1/new/neander_multiplicacao_diag_tb.v" \
+"../../../../neander.srcs/sim_1/new/neander_matrizes_tb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

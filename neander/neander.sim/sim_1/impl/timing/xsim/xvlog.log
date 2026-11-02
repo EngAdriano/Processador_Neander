@@ -1,4 +1,4 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.sim/sim_1/impl/timing/xsim/neander_multiplicacao_diag_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.sim/sim_1/impl/timing/xsim/neander_matrizes_timing_tb_time_impl.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module acumulador
 INFO: [VRFC 10-311] analyzing module caminho_dados
 INFO: [VRFC 10-311] analyzing module contador_programa
@@ -15,5 +15,5 @@ INFO: [VRFC 10-311] analyzing module memoria_neander_blk_mem_gen_top
 INFO: [VRFC 10-311] analyzing module memoria_neander_blk_mem_gen_v8_4_9
 INFO: [VRFC 10-311] analyzing module memoria_neander_blk_mem_gen_v8_4_9_synth
 INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/neander_multiplicacao_diag_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module neander_multiplicacao_diag_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/sim_1/new/neander_matrizes_timing_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neander_matrizes_timing_tb
