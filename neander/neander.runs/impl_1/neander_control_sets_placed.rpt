@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date         : Mon Nov  2 14:28:28 2026
+| Date         : Mon Nov  2 16:18:57 2026
 | Host         : INVENCTUS_ENG running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file neander_control_sets_placed.rpt
 | Design       : neander
@@ -73,10 +73,10 @@ Table of Contents
 +----------------+-------------------+------------------+------------------+----------------+--------------+
 |  Clock Signal  |   Enable Signal   | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
 +----------------+-------------------+------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | u_dados/u_ri/E[0] | reset_IBUF       |                2 |              8 |         4.00 |
 |  clk_IBUF_BUFG | u_controle/E[0]   | reset_IBUF       |                2 |              8 |         4.00 |
 |  clk_IBUF_BUFG | u_controle/Q[0]   | reset_IBUF       |                2 |              8 |         4.00 |
 |  clk_IBUF_BUFG | u_controle/Q[4]   | reset_IBUF       |                4 |              8 |         2.00 |
-|  clk_IBUF_BUFG | u_dados/u_ri/E[0] | reset_IBUF       |                2 |              8 |         4.00 |
 |  clk_IBUF_BUFG |                   | reset_IBUF       |                3 |             12 |         4.00 |
 +----------------+-------------------+------------------+------------------+----------------+--------------+
 

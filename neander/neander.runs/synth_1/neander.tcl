@@ -111,6 +111,8 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 read_xdc D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/constrs_1/new/neander_timing.xdc
 set_property used_in_implementation false [get_files D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/constrs_1/new/neander_timing.xdc]
 
+read_xdc dont_touch.xdc
+set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 
 read_checkpoint -auto_incremental -incremental D:/Repositorio_Git/Processador_Neander/neander/neander.srcs/utils_1/imports/synth_1/neander.dcp

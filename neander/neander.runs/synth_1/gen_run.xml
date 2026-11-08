@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1793640453" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/neander.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1793647076" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/neander.dcp">
+  <File Type="PA-TCL" Name="neander.tcl"/>
   <File Type="REPORTS-TCL" Name="neander_reports.tcl"/>
+  <File Type="RDS-RDS" Name="neander.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="neander_drc_synth.rpt"/>
   <File Type="RDS-UTIL" Name="neander_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="neander_utilization_synth.pb"/>
-  <File Type="PA-TCL" Name="neander.tcl"/>
-  <File Type="RDS-RDS" Name="neander.vds"/>
   <File Type="RDS-DCP" Name="neander.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="neander_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="neander_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/memoria_neander/memoria_neander.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/acumulador.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -185,5 +195,4 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="memoria_neander"/>
 </GenRun>
